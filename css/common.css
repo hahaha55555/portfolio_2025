@@ -1,0 +1,35 @@
+:root {
+  --main-color: #bfa5e3;
+  --point-color: #ffa69e;
+  --sub-color: #f5f0ff;
+  --border-color: #e6e6e6;
+  --thr-color: #2e2f4f;
+}
+@font-face {
+  font-family: "lexend";
+  src: url(../font/Lexend-VariableFont_wght.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "cafe24star";
+  src: url(../font/Cafe24Shiningstar-v2.0.woff) format("woff");
+}
+@font-face {
+  font-family: "kelsi";
+  src: url(../font/Kelsi-fill.otf) format("opentype");
+}
+html,
+body {
+  font-size: 62.5%;
+  scroll-padding-top: 100px;
+}
+body {
+  font-family: "lexend";
+  font-size: 2rem;
+  font-optical-sizing: auto;
+  color: #333;
+  text-align: justify;
+  word-break: keep-all;
+  line-height: 1.8;
+}
